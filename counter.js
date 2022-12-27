@@ -8,7 +8,7 @@ function updateCounter() {
     */
    
     
-    if(count == null){
+    if(count== null){
         count = 1;
     }
     else{
