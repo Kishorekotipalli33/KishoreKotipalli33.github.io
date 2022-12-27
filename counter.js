@@ -9,7 +9,7 @@ function updateCounter() {
    
     
     if(count== null){
-        parseInt(count) = 1;
+        count = 1;
     }
     else{
         count++
