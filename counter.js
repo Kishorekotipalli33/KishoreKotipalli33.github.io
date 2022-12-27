@@ -8,11 +8,11 @@ function updateCounter() {
     */
    
     
-    if(count== null || count=NaN){
+    if(count== null){
         count = 1;
     }
     else{
-        count= parseInt(count)+1
+        count++
     }
     localStorage.setItem('visiterCount', count);
     counter.innerHTML = `Vistor Count: ${localStorage.getItem('visiterCount')}`;
