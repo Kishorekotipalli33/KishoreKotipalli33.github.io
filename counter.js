@@ -7,6 +7,7 @@ function updateCounter() {
     * else increment the count by 1 (Note: count is a string so convert it to number using parseInt)
     
     */
+   count=null;
    if(count == null){
     count=1;
    }
